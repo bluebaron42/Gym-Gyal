@@ -10,8 +10,8 @@ window.GB_PROFILE = {
   storage: "gymgyal:",
   menuSet: "gyal",
   // Portion scale by food group: p = protein and dairy, c = carbs, fats and sauces, v = fruit and veg.
-  // Tuned so the menu lands near 1,750 kcal and 150–165 g protein a day.
-  scales: { p: 0.78, c: 0.55, v: 1 },
+  // Tuned so the menu, morning shake included, lands near 1,750 kcal and 160 g protein a day.
+  scales: { p: 0.7, c: 0.5, v: 1 },
   exclude: ["pork"],
   protein: 150,
   planWeeks: null,
