@@ -1,5 +1,5 @@
 // Gym-Gyal offline cache. Bump VERSION when you upload a new index.html.
-const VERSION = "gym-gyal-v3";
+const VERSION = "gym-gyal-v4";
 const CORE = ["./", "index.html", "profile.js", "data.js", "guides.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
