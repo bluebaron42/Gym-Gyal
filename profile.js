@@ -5,7 +5,7 @@ window.GB_PROFILE = {
   app: "Gym-Gyal",
   slug: "gym-gyal",
   legacySlugs: [],
-  person: "Partner",
+  person: "Harriett",
   storage: "gymgyal:",
   menuSet: "gyal",
   // Portion scale by food group: p = protein and dairy, c = carbs, fats and sauces, v = fruit and veg.
