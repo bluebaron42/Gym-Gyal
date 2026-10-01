@@ -10,19 +10,19 @@ window.GB_PROFILE = {
   storage: "gymgyal:",
   menuSet: "gyal",
   // Portion scale by food group: p = protein and dairy, c = carbs, fats and sauces, v = fruit and veg.
-  // Tuned so the menu lands near 1,600 kcal and 140 g protein a day.
-  scales: { p: 0.7, c: 0.45, v: 1 },
+  // Tuned so the menu lands near 1,750 kcal and 150–165 g protein a day.
+  scales: { p: 0.78, c: 0.55, v: 1 },
   exclude: ["pork"],
-  protein: 140,
+  protein: 150,
   planWeeks: null,
   goalWeight: 79,
   phases: [
-    { name: "Fat loss", label: "Fat loss", kcal: 1600, trend: [-1.0, -0.2], trendText: "down 0.4–0.6 kg a week",
+    { name: "Fat loss", label: "Fat loss", kcal: 1750, trend: [-0.9, -0.15], trendText: "down 0.3–0.5 kg a week",
       low: "Faster than target: eat a little more", high: "Slower than target" }
   ],
-  banner: { weeks: [4, 5], text: "<b>Week 4 check:</b> if your weekly average hasn't dropped by about 1.5 kg, copy your data for Claude and we'll adjust your calories." },
+  banner: { weeks: [4, 5], text: "<b>Week 4 check:</b> if your weekly average hasn't dropped by about 1 kg, copy your data for Claude and we'll adjust your calories." },
   // [week, waist drop cm, weight drop kg, text]: hit when either drop is reached.
-  checkpoints: [[4, null, 1.5, "Weight down 1.5–2 kg"], [8, 3, 3.5, "Weight down 3.5–4 kg or waist down 3 cm"], [12, 5, 5, "Weight down 5–6 kg or waist down 5 cm"], [24, 10, 10, "Weight down 10–12 kg"], [36, null, 16, "Goal reached: about 79 kg"]],
+  checkpoints: [[4, null, 1, "Weight down 1–1.5 kg"], [8, 3, 2.5, "Weight down 2.5–3.5 kg or waist down 3 cm"], [12, 4, 4, "Weight down 4–5 kg or waist down 4 cm"], [24, 8, 8, "Weight down 8–10 kg"], [48, null, 16, "Goal reached: about 79 kg"]],
   weekIntro: { title: "4 sessions", lead: "Glutes and hamstrings, upper body, glutes and quads, then a glute pump with full body. 8–10k steps every day." },
   backupWhere: "the Files app",
   themeColor: { light: "#F8F0F3", dark: "#160E12" },
