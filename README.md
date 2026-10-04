@@ -13,8 +13,7 @@ Always open it from the home-screen icon. Safari keeps a separate copy of the ap
 ## Planning food with Blue
 
 - Dinners and treats are one choice for both of you. Breakfast, shake and lunch are your own.
-- When Blue sends his menu, copy the whole message, then **Food tab → Paste Blue's menu**. If iPhone shows a **Paste** bubble, tap it. That brings in the week's dinners and treats.
-- Changed your lunches? **Food tab → Copy this week's menu** and send it to Blue so the shopping and prep match.
+- **Sync:** when Blue sends you a link code, copy it, then **Food tab → Join with a code**. After that, menus, shopping and run-sheet ticks, the cupboard list and kitchen timers update on both phones. Your weight, training logs and meal ticks are never sent.
 - **Shopping list** defaults to **Household**; **Just me** shows only your portions.
 
 ## Using it with Claude

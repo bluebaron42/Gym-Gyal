@@ -1,5 +1,5 @@
 // Gym-Gyal offline cache. Bump VERSION on every update.
-const VERSION = "gym-gyal-v20";
+const VERSION = "gym-gyal-v21";
 const CORE = ["./", "index.html", "profile.js", "data.js", "guides.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
@@ -37,4 +37,10 @@ self.addEventListener("fetch", (e) => {
       return r;
     })));
   }
+});
+
+// Tapping a timer notification brings the app to the front.
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((cs) => cs.length ? cs[0].focus() : self.clients.openWindow("./")));
 });
