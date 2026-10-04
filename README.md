@@ -15,7 +15,6 @@ Always open it from the home-screen icon. Safari keeps a separate copy of the ap
 - **Food tab → Copy my menu**, then paste the message to Blue in WhatsApp or Messages.
 - When Blue sends you his, copy the whole message, then **Food tab → Paste partner's menu**. If iPhone shows a **Paste** bubble, tap it.
 - **Shopping list: Together** makes one list covering both your weeks. **Just mine** shows only yours.
-- **Same dinner: On** keeps your dinners matched. Whoever changed a dinner most recently wins when you share, and recipes show both your portions.
 
 ## Using it with Claude
 

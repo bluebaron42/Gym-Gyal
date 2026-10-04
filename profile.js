@@ -15,14 +15,15 @@ window.GB_PROFILE = {
   exclude: ["pork"],
   protein: 150,
   planWeeks: null,
-  goalWeight: 79,
+  weightUnit: "lb",
+  goalWeight: 78.93, // stored in kg: 174 lb
   phases: [
-    { name: "Fat loss", label: "Fat loss", kcal: 1750, trend: [-0.9, -0.15], trendText: "down 0.3–0.5 kg a week",
+    { name: "Fat loss", label: "Fat loss", kcal: 1750, trend: [-0.9, -0.15], trendText: "down 0.7–1.1 lb a week",
       low: "Faster than target: eat a little more", high: "Slower than target" }
   ],
-  banner: { weeks: [4, 5], text: "<b>Week 4 check:</b> if your weekly average hasn't dropped by about 1 kg, copy your data for Claude and we'll adjust your calories." },
-  // [week, waist drop cm, weight drop kg, text]: hit when either drop is reached.
-  checkpoints: [[4, null, 1, "Weight down 1–1.5 kg"], [8, 3, 2.5, "Weight down 2.5–3.5 kg or waist down 3 cm"], [12, 4, 4, "Weight down 4–5 kg or waist down 4 cm"], [24, 8, 8, "Weight down 8–10 kg"], [48, null, 16, "Goal reached: about 79 kg"]],
+  banner: { weeks: [4, 5], text: "<b>Week 4 check:</b> if your weekly average hasn't dropped by about 2 lb, copy your data for Claude and we'll adjust your calories." },
+  // [week, waist drop cm, weight drop kg (always kg), text shown]: hit when either drop is reached.
+  checkpoints: [[4, null, 1, "Weight down 2–3 lb"], [8, 3, 2.5, "Weight down 6–8 lb or waist down 3 cm"], [12, 4, 4, "Weight down 9–11 lb or waist down 4 cm"], [24, 8, 8, "Weight down 18–22 lb"], [48, null, 16, "Goal reached: about 174 lb"]],
   weekIntro: { title: "4 sessions", lead: "Glutes and hamstrings, upper body, glutes and quads, then a glute pump with full body. 8–10k steps every day." },
   backupWhere: "the Files app",
   themeColor: { light: "#F8F0F3", dark: "#160E12" },
