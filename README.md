@@ -10,11 +10,12 @@ Your app link: **https://bluebaron42.github.io/Gym-Gyal/**
 
 Always open it from the home-screen icon. Safari keeps a separate copy of the app with its own data.
 
-## Sharing menus with Blue
+## Planning food with Blue
 
-- **Food tab → Copy my menu**, then paste the message to Blue in WhatsApp or Messages.
-- When Blue sends you his, copy the whole message, then **Food tab → Paste partner's menu**. If iPhone shows a **Paste** bubble, tap it.
-- **Shopping list: Together** makes one list covering both your weeks. **Just mine** shows only yours.
+- Dinners and treats are one choice for both of you. Breakfast, shake and lunch are your own.
+- When Blue sends his menu, copy the whole message, then **Food tab → Paste Blue's menu**. If iPhone shows a **Paste** bubble, tap it. That brings in the week's dinners and treats.
+- Changed your lunches? **Food tab → Copy this week's menu** and send it to Blue so the shopping and prep match.
+- **Shopping list** defaults to **Household**; **Just me** shows only your portions.
 
 ## Using it with Claude
 

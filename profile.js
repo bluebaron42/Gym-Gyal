@@ -6,13 +6,8 @@ window.GB_PROFILE = {
   slug: "gym-gyal",
   legacySlugs: [],
   person: "Harriett",
-  partnerName: "Blue",
+  me: "harriett", // who this phone belongs to; the household itself is in data.js
   storage: "gymgyal:",
-  menuSet: "gyal",
-  // Portion scale by food group: p = protein and dairy, c = carbs, fats and sauces, v = fruit and veg.
-  // Tuned so the menu, morning shake included, lands near 1,750 kcal and 160 g protein a day.
-  scales: { p: 0.7, c: 0.5, v: 1 },
-  exclude: ["pork"],
   protein: 150,
   planWeeks: null,
   weightUnit: "lb",
