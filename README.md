@@ -19,6 +19,7 @@ Always open it from the home-screen icon. Safari keeps a separate copy of the ap
 ## Using it with Claude
 
 - **Review:** Progress tab → **Copy data for Claude**, then paste it into a Claude chat and ask for a review.
+- **Share my record with Claude:** Progress tab, off by default. When on, a private online copy of your weigh-ins, sets, meals eaten and supplements lets Claude review them once you give it your review key. Switching it off deletes that copy.
 - **Backup:** Progress tab → **Back up**. When iPhone shows the file, tap **Share → Save to Files**. Do this every couple of weeks.
 - **Restore:** Progress tab → **Restore** and pick the backup from Files. It replaces what's on the phone.
 
