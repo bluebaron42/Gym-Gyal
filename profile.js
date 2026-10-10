@@ -57,7 +57,7 @@ window.GB_PROFILE = {
       ["flat-db", "Flat dumbbell press", 3, 8, 12, "Push-ups", 8, 15, 90],
       ["db-row", "One-arm dumbbell row", 3, 10, 12, "One-arm DB row", 10, 15, 75],
       ["abduction", "Hip abduction machine", 2, 20, 25, "Banded hip abduction", 25, 30, 60]] },
-    0: { rest: true, title: "Rest", focus: "8–10k steps, Sunday food prep" }
+    0: { rest: true, title: "Rest", focus: "8–10k steps. Open day for food" }
   },
   mainLifts: [["hip-thrust", "Hip thrust"], ["squat", "Squat"], ["deadlift", "Trap-bar deadlift"], ["rdl", "Romanian deadlift"], ["seated-press", "Shoulder press"], ["pulldown", "Lat pulldown"]],
   e1rm: [["hip-thrust", "Hip thrust"], ["squat", "Squat"], ["deadlift", "Deadlift"], ["rdl", "RDL"]]
